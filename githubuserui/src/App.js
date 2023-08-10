@@ -5,7 +5,7 @@ import UserInfo from "./components/UserInfo"
 
 function App() {
   return (
-    <div className="App bg-emerald-900 w-full h-screen flex justify-center items-center">
+    <div className="App bg-blue-900 w-full h-screen flex justify-center items-center">
       <Router>
         <Routes>
           <Route path="/" element={<Card />} />
